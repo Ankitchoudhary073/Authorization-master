@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: authorizationrepos
-        image: myregdsconfig.azurecr.io/dockersamplerepos:latest
+        image:  iptreatmentmanagement3cr.azurecr.io/authorizationrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
